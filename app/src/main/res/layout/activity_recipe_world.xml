@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.RecipeWorld">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_width="match_parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="261dp"
+        android:layout_height="214dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="258dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginRight="-67dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Recipe World"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>
